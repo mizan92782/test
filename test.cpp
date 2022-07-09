@@ -136,21 +136,7 @@ class Queue
   }
 
 
-  void search_index(int  index)
-  {
-
-    if(size==0)
-    {
-      cout<<"There si no elemnt in this queue "<<endl;
-    }else if(index<front && index>back)
-    {
-      cout<<"Index out of bound "<<endl;
-    }else
-    {
-      cout<<item[index]<<"   --  index : "<<index<<endl;
-    }
-
-  }
+ 
       
 
 
